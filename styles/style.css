@@ -1,0 +1,337 @@
+:root   {
+    --dark: #3D3D3D;
+    --light:    #FFFDFA;
+    --accent_1: #418CBB;
+    --light__accent: #F1F6FA;
+    --accent_2: #EC5393;
+    --white: #ffffff;
+    --black__light: #AFB0B0;
+
+    --tr: 0.2s;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1760px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.light {
+    background-color: var(--light);
+}
+
+.title-h1 {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100px;
+    color: var(--dark);
+}
+
+.title-h2 {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100px;
+    color: var(--dark);
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.title-h3 {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    color: var(--dark);
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.title-h4 {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25;
+    color: var(--dark);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.title-h5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.66;
+    color: var(--dark);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--dark);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.text__second {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--black__light);
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+.quote {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.3;
+    color: var(--dark);
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 20px;
+
+}
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.btn {
+    font-family: "Alumni Sans", sans-serif;
+    padding: 10px;
+    color: var(--dark)
+}
+
+li:not activel ahover
+
+.btn:hover {
+    font-family: "Alumni Sans", sans-serif;
+    color: var(--accent_1);
+}
+
+.main {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between; 
+    padding-bottom: 170px;  
+}
+
+.title {
+    font-family: "Alumni Sans", sans-serif;    
+}
+
+.main__title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main__left {
+    margin-top: 290px;
+    margin-bottom: 170px;
+}
+
+.main__desc {
+    margin-top: 40px;
+}
+
+.main__right {
+    margin-top: 725px;
+    margin-bottom: 0;
+}
+
+.btn_content {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn_contact {
+    font-family: "Monserrat", sans-serif; 
+    color: var(--dark);
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn_contact:hover {
+    font-family: "Monserrat", sans-serif; 
+    color: var(--accent_1);
+}
+
+.article {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 140px; 
+    padding-bottom: 100px;
+
+}
+.light__accent {
+    background-color: var(--light__accent);
+    padding-top: 140px; 
+    padding-bottom: 100px;
+}
+
+.container__two {
+    margin: 0 auto;
+    max-width: 1760px;
+    position: center;
+}
+
+.about {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.about__left {
+    max-width: 870px;
+}
+
+.title__about {
+    padding-bottom: 60px;
+}
+
+.about__me {
+    padding-bottom: 40px;
+}
+
+.ul {
+    padding-left: 15px;
+}
+
+.li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.skills {
+
+padding-bottom: 40px;
+}
+
+.education {
+    padding-bottom: 40px;
+    max-width: 870px;
+}
+
+.conteiner__education {
+    padding-top: 20px;
+}
+
+.conteiner__education__one {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 870px;
+    position: center;
+}
+
+.conteiner__education__two {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 725px;
+    position: center;
+}
+
+.left__text {
+    width: 300px;
+}
+
+.about__right {
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 870px;
+    padding-left: 20px;
+}
+
+.right__text {
+    width: 570px;
+}
+
+.text__content {
+    max-width: 870px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.img {
+    position: absolute;
+
+}
+
+.experience {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    max-width: 1760px;
+    position: center;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.bullit {
+    padding-top: 5px;
+    margin: 0px;
+}
+
+.bullit__2 {
+    padding-top: 10px;
+    margin: 0px;
+}
+
+.right__two {
+    width: 780px;
+    padding-left: 100px;
+}
+.left__experiens {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+.container__experience {
+    max-width: 1760;
+    position: center;
+}
