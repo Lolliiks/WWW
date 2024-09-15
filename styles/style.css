@@ -4,6 +4,7 @@
     --accent_1: #418CBB;
     --light__accent: #F1F6FA;
     --accent_2: #EC5393;
+    --accent_3: #565EF9;
     --white: #ffffff;
     --black__light: #AFB0B0;
 
@@ -82,6 +83,13 @@ a {
     margin-bottom: 0;
 }
 
+.text__xl {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3;
+}
 
 .text {
     font-family: "Montserrat", sans-serif;
@@ -334,4 +342,76 @@ padding-bottom: 40px;
 .container__experience {
     max-width: 1760;
     position: center;
+}
+
+.achievements {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    max-width: 1760px;
+    justify-content: space-between;
+    position: center;
+    align-items: flex-end;
+}
+
+.achievements_left {
+    max-width: 870px;
+}
+
+.achievements_right {
+    max-width: 870px;
+}
+
+.vin {
+    color: var(--accent_3);
+    padding-left: 20px;
+}
+
+.do {
+    color: var(--accent_2);
+}
+
+.conteiner__portfolio {
+    background-color: var(--white);
+    max-width: 1760px;
+    padding-top: 140px;
+    padding-bottom: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.white {
+    background-color: var(--white);
+}
+
+.conteiner__contact {
+    background-color: var(--white);
+    max-width: 1760px;
+    padding-top: 140px;
+    padding-bottom: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.contact__1 {
+    position: center;
+}
+
+.nav_footer {
+    display: flex;
+    max-width: 870px;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 200px;
+    padding-bottom: 400px;
+}
+
+.contact {
+    justify-content: center;
+}
+
+.center {
+    text-align: center;
 }
