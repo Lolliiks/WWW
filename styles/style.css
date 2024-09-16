@@ -142,14 +142,13 @@ a {
 
 .btn {
     font-family: "Alumni Sans", sans-serif;
-    padding: 10px;
-    color: var(--dark)
+    padding: 10px 20px 10px;
+    color: var(--dark);
 }
-
-li:not activel ahover
 
 .btn:hover {
     font-family: "Alumni Sans", sans-serif;
+    padding: 10px 20px 10px;
     color: var(--accent_1);
 }
 
@@ -195,7 +194,7 @@ li:not activel ahover
     font-family: "Monserrat", sans-serif; 
     color: var(--dark);
     padding-left: 20px;
-    padding-right: 10px;
+    padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
