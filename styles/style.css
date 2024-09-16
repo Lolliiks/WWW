@@ -13,6 +13,7 @@
 
 body {
     font-family: "Montserrat", sans-serif;
+    background-color: var(--light__accent);
 }
 
 a {
@@ -188,6 +189,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    font-weight: 500;
 }
 
 .btn_contact {
@@ -232,6 +234,7 @@ a {
 
 .about__left {
     max-width: 870px;
+    position: relative;
 }
 
 .title__about {
@@ -288,8 +291,47 @@ padding-bottom: 40px;
 .about__right {
     justify-content: space-between;
     align-items: flex-end;
-    max-width: 870px;
-    padding-left: 20px;
+    max-width: 780px;
+    padding-left: 100px;
+    position: relative;
+}
+
+.portrait {
+    
+}
+
+.photo_portrait {
+    position: absolute;
+    top: -550px;
+    height: 540px;
+}
+
+.tag {
+    display: flex;
+    gap: 20px;
+}
+
+.tag_line__fi {
+    position: relative;
+}
+
+.tag_line__ap {
+    position: relative;
+
+}
+
+.tag_line__ai {
+    position: relative;
+}
+
+.tag_line__pr {
+    position: relative;
+}
+
+.bgline {
+    position: absolute;
+    top: 5px;
+    left: -5px;
 }
 
 .right__text {
@@ -297,7 +339,7 @@ padding-bottom: 40px;
 }
 
 .text__content {
-    max-width: 870px;
+    max-width: 780px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -335,9 +377,25 @@ padding-bottom: 40px;
     display: block;
     margin-left: 0px;
     margin-right: 0px;
-
+    position: relative;
 }
 
+.index {
+    position: relative;
+    z-index: 2;
+}
+
+.box {
+    width: 120%;
+    height: 115%;
+    position: absolute;
+    background-color: var(--white);
+    top: -20px;
+    left: -140px;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
 .container__experience {
     max-width: 1760;
     position: center;
