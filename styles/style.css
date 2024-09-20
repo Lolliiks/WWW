@@ -138,6 +138,13 @@ a {
     color: var(--accent_2);
 }
 
+.vin__text {
+    font-family: "Alumni Sans", sans-serif;
+    color: var(--accent_3);
+    font-size: 30px;
+    font-size: 700;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -482,13 +489,10 @@ a {
 }
 
 .achievements {
-    display: flex;
     padding-top: 80px;
     padding-bottom: 40px;
     max-width: 1760px;
-    justify-content: space-between;
-    position: center;
-    align-items: flex-end;
+    margin: auto;
 }
 
 .achievements_left {
@@ -500,14 +504,70 @@ a {
     max-width: 870px;
 }
 
-.vin {
-    color: var(--accent_3);
-    z-index: 2;
-}
-
 .do {
     color: var(--accent_2);
 }
+
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.vin {
+    display: flex;
+    align-items: flex-end;
+}
+
+.vin__content {
+    padding-right: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.vin__left {
+
+}
+
+.vin__right {
+
+}
+
+.box__vin {
+    position: absolute;
+    background-color: var(--white);
+    width: 1000px;
+    height: 500px;
+    top: -10px;
+    left: -150px;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.designed__content {
+    padding-left: 40px;
+    position: relative;
+}
+
+.certificat {
+    width: 255px;
+    height: 180px;
+    background-color: var(--accent_1);
+}
+
+.colore__text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.designed
+
+/* PORTFOLIO */
 
 .conteiner__portfolio {
     background-color: var(--white);
@@ -522,6 +582,8 @@ a {
 .white {
     background-color: var(--white);
 }
+
+/*FOOTER*/
 
 .conteiner__contact {
     background-color: var(--white);
@@ -552,20 +614,4 @@ a {
 
 .center {
     text-align: center;
-}
-
-.vin__conteiner {
-    position: relative;
-}
-
-.vin_i {
-    font-family: "Alumni Sans", sans-serif;
-    color: var(--accent_3);
-    font-size: 30px;
-    font-size: 700;
-}
-.colore__text {
-    display: flex;
-    align-items: center;
-    gap: 5px;
 }
