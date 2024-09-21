@@ -316,7 +316,8 @@ a {
 
 .img__skills {
     position: absolute;
-    left: -50px;
+    width: 150px;
+    left: -20px;
     top: 40px;
 }
 
@@ -457,8 +458,8 @@ a {
 
 .img__experiens {
     position: absolute;
-    left: -50px;
-    top: 40px;
+    width: 120px;
+    left: -20px;
     z-index: 2;
 }
 
@@ -496,7 +497,16 @@ a {
     padding-bottom: 40px;
     max-width: 1760px;
     margin: auto;
+    position: relative;
+    z-index: 2;
 }
+
+.img__achievements {
+    position: absolute;
+    width: 210px;
+    left: -15px;
+    z-index: 2;
+}    
 
 .achievements_left {
     max-width: 870px;
@@ -556,7 +566,7 @@ a {
     position: absolute;
     background-color: var(--white);
     height: 750px;
-    top: 0px;
+    top: 0;
     left: -1000px;
     right: 0;
     bottom: 0;
@@ -582,6 +592,16 @@ a {
 
 .designed {
 
+}
+
+.box__designed {
+    position: absolute;
+    background-color: var(--white);
+    height: 750px;
+    left: 0;
+    top: 0;
+    right: -750px;
+    z-index: 0;
 }
 
 .title__designed {
