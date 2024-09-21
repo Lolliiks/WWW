@@ -141,7 +141,7 @@ a {
     font-family: "Alumni Sans", sans-serif;
     color: var(--accent_3);
     font-size: 30px;
-    font-size: 700;
+    font-weight: 700;
 }
 
 .header {
@@ -515,12 +515,13 @@ a {
     align-items: flex-end;
     gap: 20px;
     position: relative;
-    z-index: 1;
 }
 
 .vin {
     display: flex;
     align-items: flex-end;
+    position: relative;
+    z-index: 2;
 }
 
 .vin__content {
@@ -529,8 +530,20 @@ a {
     z-index: 1;
 }
 
+.title__vin {
+    color: var(--accent_3);
+    position: relative;
+    z-index: 2;
+}
+
 .vin__left {
 
+}
+
+.left__vin-text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .vin__right {
@@ -540,10 +553,9 @@ a {
 .box__vin {
     position: absolute;
     background-color: var(--white);
-    width: 1000px;
-    height: 500px;
-    top: -10px;
-    left: -150px;
+    height: 750px;
+    top: 0px;
+    left: -1000px;
     right: 0;
     bottom: 0;
     z-index: 0;
@@ -566,7 +578,15 @@ a {
     gap: 5px;
 }
 
-.designed
+.designed {
+
+}
+
+.title__designed {
+    color: var(--accent_2);
+    position: relative;
+    z-index: 2;
+}
 
 /* PORTFOLIO */
 
