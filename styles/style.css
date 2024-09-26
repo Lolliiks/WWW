@@ -90,6 +90,8 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: 1.3;
+    margin-top: 80px;
+    margin-bottom: 0;
 }
 
 .text {
@@ -101,7 +103,6 @@ a {
     color: var(--dark);
     margin-top: 0;
     margin-bottom: 0;
-    z-index: 2;
 }
 
 .text__second {
@@ -136,6 +137,13 @@ a {
 
 .erp {
     color: var(--accent_2);
+}
+
+.vin__text {
+    font-family: "Alumni Sans", sans-serif;
+    color: var(--accent_3);
+    font-size: 30px;
+    font-weight: 700;
 }
 
 .header {
@@ -308,7 +316,8 @@ a {
 
 .img__skills {
     position: absolute;
-    left: -50px;
+    width: 150px;
+    left: -20px;
     top: 40px;
 }
 
@@ -320,7 +329,6 @@ a {
 
 .img__education {
     position: absolute;
-    z-index: 2;
     left: -25px;
     top: 40px;
 }
@@ -335,6 +343,7 @@ a {
     padding-top: 20px;
     width: 870px;
     position: center;
+    z-index: 3;
 }
 
 .conteiner__education__two {
@@ -415,9 +424,11 @@ a {
     position: center;
     justify-content: space-between;
     align-items: flex-end;
+    z-index: 3;
 }
 
 .bullit {
+    position: relative;
     padding-top: 5px;
     margin: 0px;
     z-index: 3;
@@ -437,6 +448,7 @@ a {
     margin-left: 0px;
     margin-right: 0px;
     position: relative;
+    z-index: 3;
 }
 
 .index {
@@ -446,17 +458,17 @@ a {
 
 .img__experiens {
     position: absolute;
-    left: -50px;
-    top: 40px;
+    width: 120px;
+    left: -20px;
     z-index: 2;
 }
 
 .click {
     position: absolute;
-    z-index: 0;
     left: -50px;
     left: 710px;
     top: -65px;
+    z-index: 0;
 }
 
 .box {
@@ -468,7 +480,6 @@ a {
     left: -1000px;
     right: 0;
     bottom: 0;
-    z-index: 1;
 }
 .container__experience {
     max-width: 1760;
@@ -482,14 +493,20 @@ a {
 }
 
 .achievements {
-    display: flex;
     padding-top: 80px;
     padding-bottom: 40px;
     max-width: 1760px;
-    justify-content: space-between;
-    position: center;
-    align-items: flex-end;
+    margin: auto;
+    position: relative;
+    z-index: 2;
 }
+
+.img__achievements {
+    position: absolute;
+    width: 210px;
+    left: -15px;
+    z-index: 2;
+}    
 
 .achievements_left {
     max-width: 870px;
@@ -500,14 +517,100 @@ a {
     max-width: 870px;
 }
 
-.vin {
-    color: var(--accent_3);
-    z-index: 2;
-}
-
 .do {
     color: var(--accent_2);
 }
+
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+    position: relative;
+}
+
+.vin {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    z-index: 2;
+}
+
+.vin__content {
+    padding-right: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.title__vin {
+    color: var(--accent_3);
+    position: relative;
+    z-index: 2;
+}
+
+.vin__left {
+    padding-top: 40px;
+}
+
+.left__vin-text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.vin__right {
+
+}
+
+.box__vin {
+    position: absolute;
+    background-color: var(--white);
+    height: 750px;
+    top: 0;
+    left: -1000px;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.designed__content {
+    padding-left: 40px;
+    position: relative;
+}
+
+.certificat {
+    width: 255px;
+    height: 180px;
+    background-color: var(--accent_1);
+}
+
+.colore__text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.designed {
+
+}
+
+.box__designed {
+    position: absolute;
+    background-color: var(--white);
+    height: 750px;
+    left: 0;
+    top: 0;
+    right: -750px;
+    z-index: 0;
+}
+
+.title__designed {
+    color: var(--accent_2);
+    position: relative;
+    z-index: 2;
+}
+
+/* PORTFOLIO */
 
 .conteiner__portfolio {
     background-color: var(--white);
@@ -522,6 +625,18 @@ a {
 .white {
     background-color: var(--white);
 }
+
+.keys {
+    max-width: 1760px;
+    margin: 80px;
+
+}
+
+.btn__prototipe {
+    align-items: center;
+}
+
+/*FOOTER*/
 
 .conteiner__contact {
     background-color: var(--white);
@@ -552,20 +667,4 @@ a {
 
 .center {
     text-align: center;
-}
-
-.vin__conteiner {
-    position: relative;
-}
-
-.vin_i {
-    font-family: "Alumni Sans", sans-serif;
-    color: var(--accent_3);
-    font-size: 30px;
-    font-size: 700;
-}
-.colore__text {
-    display: flex;
-    align-items: center;
-    gap: 5px;
 }
