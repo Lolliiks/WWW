@@ -626,6 +626,16 @@ a {
     background-color: var(--white);
 }
 
+.keys {
+    max-width: 1760px;
+    margin: 80px;
+
+}
+
+.btn__prototipe {
+    align-items: center;
+}
+
 /*FOOTER*/
 
 .conteiner__contact {
