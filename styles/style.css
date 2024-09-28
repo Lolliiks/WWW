@@ -144,6 +144,17 @@ a {
     color: var(--accent_3);
     font-size: 30px;
     font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.designed__text {
+    font-family: "Alumni Sans", sans-serif;
+    color: var(--accent_2);
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .header {
@@ -423,7 +434,7 @@ a {
     max-width: 1760px;
     position: center;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
     z-index: 3;
 }
 
@@ -443,6 +454,7 @@ a {
 .right__two {
     width: 780px;
     padding-left: 100px;
+    padding-top: 100px;
 }
 .left__experiens {
     display: block;
@@ -525,7 +537,7 @@ a {
 .conteiner {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
     gap: 20px;
     position: relative;
 }
@@ -579,7 +591,8 @@ a {
     z-index: 0;
 }
 
-.designed__content {
+.designed__content {    
+    width: 790px;
     padding-left: 40px;
     position: relative;
 }
@@ -603,9 +616,9 @@ a {
 .box__designed {
     position: absolute;
     background-color: var(--white);
-    height: 750px;
+    height: 725px;
     left: 0;
-    top: 0;
+    top: 40px;
     right: -750px;
     z-index: 0;
 }
@@ -614,6 +627,7 @@ a {
     color: var(--accent_2);
     position: relative;
     z-index: 2;
+    max-width: 790px;
 }
 
 /* PORTFOLIO */
